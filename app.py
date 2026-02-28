@@ -5,7 +5,7 @@ st.set_page_config(page_title="CPHEEO STP Design Tool", layout="wide")
 
 st.title("CPHEEO Based STP Design Calculator")
 
-st.sidebar.header("Input Parameters")
+st.sidebar.header("Input Para")
 
 population = st.sidebar.number_input("Population", min_value=1, value=50000)
 lpcd = st.sidebar.number_input("LPCD (120-150)", min_value=100, max_value=200, value=135)
